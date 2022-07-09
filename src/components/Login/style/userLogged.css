@@ -1,0 +1,33 @@
+.user__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    width: 400px;
+    aspect-ratio: 1.7;
+    /* background-color: gainsboro; */
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 3rem; 
+    width: 100px; 
+    aspect-ratio: 1; 
+    background-color: rgb(139, 79, 79); 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.user__successful {
+    margin-top: 15px;
+}
+
+.user__btn {
+    background-color: transparent;
+    border: 0;
+    color: rgb(37, 37, 212);
+    cursor: pointer;
+}
